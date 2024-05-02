@@ -1,0 +1,181 @@
+/* styles.css */
+
+/* Réinitialisation des marges et des rembourrages */
+body, h1, h2, p, ul, li, form, label, input {
+    margin: 0;
+    padding: 0; 
+	
+	
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0; 
+	color: #fff;
+	text-align: center;
+	background-color: #007bff;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+/* Style de la barre de navigation */
+nav {
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+.menuHorizontal {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menuHorizontal li {
+    display: inline;
+}
+
+.menuHorizontal li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menuHorizontal li a:hover {
+    background-color: #555;
+}
+
+/* Conteneur principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: #666;
+}
+
+/* Formulaire de connexion */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #007bff;
+}
+
+
+
+/* styles.css */
+
+/* Réinitialisation des marges et des rembourrages */
+body, h1, h2, p, article {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* En-tête de page */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Titre principal */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Conteneur principal */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles des articles d'actualité */
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+article p {
+    color: #666;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}

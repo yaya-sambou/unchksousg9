@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter une formation et des matières</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Ajouter une formation et des matières</h2><br>
+	
+    <form action="traitement_formation.php" method="post"><br>
+        <label for="nom_formation">Nom de la formation :</label><br>
+        <input type="text" id="nom_formation" name="nom_formation" required><br><br>
+
+        <label for="description_formation">Description de la formation :</label><br>
+        <textarea id="description_formation" name="description_formation" rows="4" cols="50"></textarea><br><br>
+
+        <label for="matieres">Matières associées (séparées par des virgules) :</label><br>
+        <input type="text" id="matieres" name="matieres" required><br><br>
+
+        <input type="submit" value="Ajouter">
+    </form>
+	
+	
+	<footer>
+       Projet Tutoriel Groupe1 (Sous Groupe9)
+    </footer>
+</body>
+</html>

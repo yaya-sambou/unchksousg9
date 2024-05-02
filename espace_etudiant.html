@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espace Étudiant</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Espace Étudiant</h2><br>
+
+    <!-- Voir ses informations administratives -->
+    <h3>Voir ses informations administratives</h3>
+    <a href="infos_etudiant.php">Voir mes informations</a>
+
+    <!-- Voir ses notes dans une matière -->
+    <h3>Voir ses notes dans une matière</h3>
+    <form action="voir_notes_matiere.php" method="post">
+        <label for="matiere">Sélectionner une matière :</label>
+        <input type="text" id="matiere" name="matiere" required>
+        <input type="submit" value="Voir les notes">
+    </form>
+
+    <!-- Voir toutes ses notes -->
+    <h3>Voir toutes ses notes</h3>
+    <a href="voir_toutes_notes.php">Voir toutes mes notes</a>
+
+    <!-- Modifier son mot de passe -->
+    <h3>Modifier son mot de passe</h3>
+    <form action="modifier_mot_de_passe.php" method="post">
+        <label for="ancien_mot_de_passe">Ancien mot de passe :</label>
+        <input type="password" id="ancien_mot_de_passe" name="ancien_mot_de_passe" required><br>
+        <label for="nouveau_mot_de_passe">Nouveau mot de passe :</label>
+        <input type="password" id="nouveau_mot_de_passe" name="nouveau_mot_de_passe" required><br>
+        <label for="confirmer_nouveau_mot_de_passe">Confirmer nouveau mot de passe :</label>
+        <input type="password" id="confirmer_nouveau_mot_de_passe" name="confirmer_nouveau_mot_de_passe" required><br>
+        <input type="submit" value="Modifier le mot de passe">
+    </form>
+	
+	
+	
+	
+	<footer>
+               Projet Tutoriel Groupe1 (Sous Groupe9)
+    </footer>
+</body>
+</html>
